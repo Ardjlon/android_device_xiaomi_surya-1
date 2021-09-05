@@ -10,12 +10,6 @@
        "target_path" : "vendor/xiaomi/surya",
        "remote"      : "pixel-devices-blobs",
        "branch"      : "eleven"
-   },
-   {
-       "repository"  : "LineageOS/android_hardware_xiaomi",
-       "target_path" : "hardware/xiaomi",
-       "remote"      : "github",
-       "branch"      : "lineage-18.1"
    }
 
 ]
