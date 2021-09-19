@@ -1,3 +1,6 @@
+# Dirac
+type dirac_prop, property_type;
+
 # IR
 type lirc_prop, property_type;
 
