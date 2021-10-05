@@ -326,3 +326,6 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     onrestart restart surfaceflinger
     writepid /dev/cpuset/system-background/tasks
     socket pps stream 0660 system system
+
+on property:ro.hardware.alter=*
+    write /proc/sys/kernel/hardware_alter ${ro.hardware.alter}
