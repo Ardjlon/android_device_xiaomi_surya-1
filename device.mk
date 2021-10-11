@@ -506,4 +506,4 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
-    WfdCommon
+#    WfdCommon
